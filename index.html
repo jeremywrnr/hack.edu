@@ -1,18 +1,96 @@
+<!DOCTYPE html>
 <html>
+<head>
+<title>HACK.EDU</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class='wrapper'>
 
-<script type="text/javascript">
+<h1>HACK.EDU</h1>
 
-function detectBrowser()
-{
-    var slashIndex = window.location.href.lastIndexOf("/");
-    var cropped = window.location.href.slice(0,slashIndex+1);
+<p>
+by: <a href="http://jeremywrnr.com">jeremy</a> &amp;
+<a target='_blank' href="http://pgbovine.net">philip</a>
+</p>
 
-    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+<p id='subtitle'>
+Examining How College Hackathons Are Perceived By Student Attendees and Non-Attendees
+</p>
+
+<p>
+We sought to address three questions about collegiate hackathons:
+</p>
+
+<ol>
+<li> Why are students motivated to attend hackathons? </li>
+<li>What kind of learning environment do these events provide?  </li>
+<li> What factors discourage students from attending? </li>
+</ol>
+
+<p>
+<a target='_blank' href="https://jeremywrnr.com/papers/student-perceptions-of-college-hackathons_ICER-2017.pdf">paper</a> |
+<a target='_blank' href="icer-presentation.pdf">slides</a> |
+<a onclick="toggle()">bibtex</a>
+</p>
+
+<p>
+Philip's research blog <a href="http://pgbovine.net/hackathon-paper.htm">post</a> provides a high-level summary of our findings.
+We presented this work at the ACM International Computing Education Research conference (<a href='https://icer.acm.org/'>ICER</a>) in September 2017, in Tacoma, WA.
+The <a href="https://github.com/jeremywrnr/hack.edu">source</a> for this page and the presented slides are in the public domain.
+</p>
+
+<span>·</span>
+
+<div id='twitter'>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Nice work by <a href="https://twitter.com/jeremywrnr?ref_src=twsrc%5Etfw">@jeremywrnr</a> on hackathons! Students engage for social reasons, mostly peer learning. Many social barriers to engaging. <a href="https://t.co/dsnUqq1Yu3">pic.twitter.com/dsnUqq1Yu3</a></p>&mdash; Andy J. Ko (@andyjko) <a href="https://twitter.com/andyjko/status/899378795055939584?ref_src=twsrc%5Etfw">August 20, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<pre id='bib' style='display:none;'>
+
+@inproceedings{WarnerICER2017,
+    author = {Warner, Jeremy and Guo, Philip J.},
+    title = {Hack.Edu: Examining How College Hackathons Are Perceived By Student Attendees and Non-Attendees},
+    booktitle = {Proceedings of the 2017 ACM Conference on International Computing Education Research},
+    series = {ICER '17},
+    year = {2017},
+    isbn = {978-1-4503-4968-0},
+    location = {Tacoma, Washington, USA},
+    pages = {254--262},
+    numpages = {9},
+    url = {http://doi.acm.org/10.1145/3105726.3106174},
+    doi = {10.1145/3105726.3106174},
+    acmid = {3106174},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {college hackathon, informal learning, situated learning},
 }
 
+</pre>
+</div>
+<script>
+function toggle() {
+  ['twitter', 'bib'].map(toggleDisplay)
+}
+
+function toggleDisplay(id) {
+  let x = document.getElementById(id)
+  if (x.style.display === "none") {
+    x.style.display = "block"
+  } else {
+    x.style.display = "none"
+  }
+}
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-58096309-1', 'auto');
+ga('send', 'pageview');
 </script>
-
-<body bgcolor="black" onload="detectBrowser()">
 </body>
-
 </html>
