@@ -30,6 +30,11 @@ h4 {
   margin: 0;
 }
 
+hr {
+  opacity: 0.05;
+  margin: 2em 1em;
+}
+
 img {
   max-width: 100%;
 }
