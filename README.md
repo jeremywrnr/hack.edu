@@ -34,3 +34,25 @@ fears of not having enough prior experience. We conclude by discussing ideas
 for making college hackathons more broadly inclusive and welcoming in light of
 our study's findings.
 
+#### citation
+
+```
+@inproceedings{WarnerICER2017,
+    author = {Warner, Jeremy and Guo, Philip J.},
+    title = {Hack.Edu: Examining How College Hackathons Are Perceived By Student Attendees and Non-Attendees},
+    booktitle = {Proceedings of the 2017 ACM Conference on International Computing Education Research},
+    series = {ICER '17},
+    year = {2017},
+    isbn = {978-1-4503-4968-0},
+    location = {Tacoma, Washington, USA},
+    pages = {254--262},
+    numpages = {9},
+    url = {http://doi.acm.org/10.1145/3105726.3106174},
+    doi = {10.1145/3105726.3106174},
+    acmid = {3106174},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {college hackathon, informal learning, situated learning},
+}
+```
+
