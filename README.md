@@ -2,7 +2,9 @@
 
 * [pdf](https://jeremywrnr.com/papers/student-perceptions-of-college-hackathons_ICER-2017.pdf)
 * [ACM DL](https://dl.acm.org/citation.cfm?id=3106174)
-
+* [slides (pdf)](https://jeremywrnr.github.io/hack.edu/icer-presentation.pdf)
+* [slides (web)](https://jeremywrnr.github.io/hack.edu/slides)
+* 
 ## abstract
 
 College hackathons have become popular in the past decade, with tens of
